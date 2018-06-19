@@ -1,0 +1,56 @@
+{
+  "name": "dungeon-libs",
+  "version": "1.0.0",
+  "description": "Rules for the Dungeon Libs roleplaying game",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write '**/*.{css,scss,js}'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node --harmony scripts/createRulebooks",
+    "watch": "node --harmony scripts/createRulebooks"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "babel": {
+    "presets": [
+      "mcclowes"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "mcclowes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammerheim-game/hammerheim-rules.git"
+  },
+  "keywords": [
+    "dungeon libs",
+    "rules",
+    "roleplaying",
+    "game",
+    "tabletop",
+    "d&d"
+  ],
+  "author": "Max Clayton Clowes <maxcc@me.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hammerheim-game/hammerheim-rules/issues"
+  },
+  "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
+  "dependencies": {
+    "handbooker": "^1.1.2",
+    "html-pdf-chrome": "^0.5.0",
+    "marked": "^0.4.0",
+    "merge-md": "^1.0.3",
+    "path": "^0.12.7",
+    "pre-commit": "^1.2.2"
+  },
+  "devDependencies": {
+    "mcclowes-scripts": "^0.3.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "eslint": "^4.18.2",
+    "prettier": "^1.13.5"
+  }
+}
