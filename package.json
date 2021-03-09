@@ -38,7 +38,7 @@
   "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
   "dependencies": {
     "handbooker": "^1.6.6",
-    "html-pdf-chrome": "^0.5.0",
+    "html-pdf-chrome": "^0.6.1",
     "jest": "^24.0.0",
     "marked": "^0.7.0",
     "merge-md": "^1.0.3",
