@@ -1,4 +1,4 @@
-# Skull Wizards ☠️ 🧙‍♂️ 
+# Dungeon Libs 
 
 <img src='https://d2mxuefqeaa7sj.cloudfront.net/s_4A949C0B5F562C93E6F9D5EC4E15FA265144831889BA7C843C9F5ABF5FAA8CD1_1519899444667_Screen+Shot+2018-03-01+at+10.16.58.png' style='bottom:10px;right:30px;width:320px;mix-blend-mode:multiply'/>
 
@@ -37,7 +37,7 @@ Players start at level 1.
 
 ### Class
 
-Your class is a <*Noun from #1*> <*number from #2*>. For #2:
+Your class is a *Noun from #1* *number from #2*. For #2:
 
 1. Fighter
 2. Thief
@@ -46,21 +46,21 @@ Your class is a <*Noun from #1*> <*number from #2*>. For #2:
 5. Bard
 6. Paladin
 
-For example, a player that wrote ‘cheese’ for #1 and rolled a 3 for #2 would become a *Cheese Wizard 🧀🧙‍♂️*.
+For example, a player that wrote *‘cheese’* for #1 and rolled a 3 for #2 would become a *Cheese Wizard*.
 
 ### Race
 
-Your race is a <*#3*> <*man/woman/person*>. For example: *a dog man, a broccoli woman, or a granite person*.
+Your race is a *#3* *man/woman/person*. For example: *a dog man, a broccoli woman, or a granite person*.
 
 ### Background
 
-Your background is a <*#4*> <*#5*>. For example: *an angry clerk*.
+Your background is a *#4* *#5*. For example: *an angry clerk*.
 
 ### Skills and equipment
 
-Your ancestral weapon is a <*#6*> of <*#7*>. For example: *a spoon of jumping*.
+Your ancestral weapon is a *#6* of *#7*. For example: *a spoon of jumping*.
 
-Your skills are <*#8 - #10*>. Write +1 next to two and -1 next to one. For example: *swimming +1, cooking +1, flexing -1*.
+Your skills are *#8 - #10*. Write +1 next to two and -1 next to one. For example: *swimming +1, cooking +1, flexing -1*.
 
 Skills act as health, and each time a player takes damage they temporarily lose one skill. If a player has no remaining skills, they are dead.
 
@@ -78,8 +78,8 @@ You should now have a complete character. Now it’s time for adventure!
 
 The story always goes the following way: 
 
-- An <*Adjective*> <*Noun*> comes to the players while they are at a <*Location*>.
-- This sorry soul has lost their <*Adjective*> <*Noun*> in the **Dungeon**!
+- An *Adjective* *Noun* comes to the players while they are at a *Location*.
+- This sorry soul has lost their *Adjective* *Noun* in the **Dungeon**!
 
 For example, *a dirty peasant visits the players while they are in a tavern. This peasant has lost their delicious honey in the Dungeon*.
 
@@ -141,10 +141,10 @@ The players must decide whether to head to the left or the right.
 
 You can use the following templates for items, either bought or found, or make your own:
 
-- <*Noun*> of <*Verb*>-ing
-- <*Adjective*> <*Noun*>
-- <*Noun*> <*Noun*>
-- <*Noun*> <*Noun*> of <*Adverb*>-ing
+- *Noun* of *Verb*-ing
+- *Adjective* *Noun*
+- *Noun* *Noun*
+- *Noun* *Noun* of *Adverb*-ing
 
 **The Shopkeeper** only stocks one or two magic items, and will sell them for **shiny gold coins**. Items can be normal, +1, or +2 in power. Items worth more **shiny gold coins** will have more nouns and adjectives. 
 
@@ -170,7 +170,7 @@ If a character takes damage, they cross out one of their skills, and it can no l
 
 After each **challenge**, the players will always encounter a **Monster** which they must fight in order to reach the next floor of the dungeon. 
 
-Ask players for their #11 - #13. The monsters are always <*#11*><*#12*> with the power of <*#13*>). For example: *A friendly cockatrice with the power of coffee*.
+Ask players for their #11 - #13. The monsters are always *#11* *#12* with the power of *#13*). For example: *A friendly cockatrice with the power of coffee*.
 
 Defeating a monster is the same as defeating a challenge, but requires a number of successful rolls equal the floor number (so 1 successful roll on floor 1, 6 successful rolls on floor 6, etc.). The player who defeats a monster gets 1 **experience** and a **shiny gold coin** or possibly a new magic item.
 
@@ -206,20 +206,37 @@ If you want to add an extra challenge, you can instead make the final boss of a 
 
 To make a skull wizard, it’s use the following template:
 
-- Legendary <*Adjective*> Skull Wizard <*Name*>!
-- <*He/She/They*> wild the <*Adjective*> power of < *-ing verb*>!
+- Legendary *Adjective* Skull Wizard *Name*!
+- *He/She/They* wild the *Adjective* power of < *-ing verb*!
 
 ### CLASS POWERS!
 
 If you want to really confuse people, each class gets a special power!
 
 
-- FIGHTER: Gain double **experience** and an extra **shiny gold coin** when you personally defeat a challenge or monster.
-- THIEF: Steal 1 item from anything or anyone per dungeon. Nobody can stop you, and nobody can steal it back once stolen, not even **the Shopkeeper** or another thief!
-- WIZARD: You gain the terrifying power to TRANSFORM! When you use this power, you first choose what you want part of your body to transform into, then your group **establishes** what part of your body transforms.
-- PRIEST: You can **pray to god** and turn any roll into a coin flip, treating a tails as a 2-6 and a heads as a 10+
-- BARD: Gain double **experience** for **establishing** by singing or using a sing-song voice
-- PALADIN: Once per dungeon you can **resurrect** a dead character, bringing them back to life and restoring them to full health. However, they must erase all their former skills and gain 3 entirely new skills, which are **established** by the group.
+#### FIGHTER
+
+Gain double **experience** and an extra **shiny gold coin** when you personally defeat a challenge or monster.
+
+#### THIEF
+
+Steal 1 item from anything or anyone per dungeon. Nobody can stop you, and nobody can steal it back once stolen, not even **the Shopkeeper** or another thief!
+
+#### WIZARD
+
+You gain the terrifying power to TRANSFORM! When you use this power, you first choose what you want part of your body to transform into, then your group **establishes** what part of your body transforms.
+
+#### PRIEST
+
+You can **pray to god** and turn any roll into a coin flip, treating a tails as a 2-6 and a heads as a 10+
+
+#### BARD
+
+Gain double **experience** for **establishing** by singing or using a sing-song voice
+
+#### PALADIN
+
+Once per dungeon you can **resurrect** a dead character, bringing them back to life and restoring them to full health. However, they must erase all their former skills and gain 3 entirely new skills, which are **established** by the group.
 
 ## Credits
 
@@ -243,7 +260,13 @@ These tables suit rolling:
 - 2D6 (2 - 12)
 - 2D6 (11 - 66) - Choose which dice represents the first digit and which represents the second 
 
+<br/>
+
 ### Adjective list 1
+
+<br/>
+
+<div class='spellList'>
 1. powerful
 2. beautiful
 3. useless
@@ -310,10 +333,15 @@ These tables suit rolling:
 64. plastic
 65. jealous
 66. smart
+</div>
 
-\page
+<br/>
 
 ### Adjective list 2
+
+<br/>
+
+<div class='spellList'>
 1. damp
 2. shrill
 3. proud
@@ -380,10 +408,15 @@ These tables suit rolling:
 64. repulsive
 65. obnoxious
 66. ancient
+</div>
 
-\page
+<br/>
 
 ### Noun list 1
+
+<br/>
+
+<div class='spellList'>
 1. shampoo
 2. sentence
 3. potato
@@ -450,10 +483,17 @@ These tables suit rolling:
 64. athlete
 65. spy
 66. sandwich
+</div>
+
+<br/>
 
 \page
 
 ### Noun list 2
+
+<br/>
+
+<div class='spellList'>
 1. lava
 2. doctor
 3. landmine
@@ -520,9 +560,15 @@ These tables suit rolling:
 64. garden
 65. protest
 66. switch
+</div>
 
-\page
+<br/>
+
 ### Verb list
+
+<br/>
+
+<div class='spellList'>
 1. hailing
 2. alerting
 3. shunning
@@ -589,3 +635,6 @@ These tables suit rolling:
 64. snatching
 65. undoing
 66. reversing
+</div>
+
+<br/>

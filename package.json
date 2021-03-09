@@ -1,26 +1,19 @@
 {
   "name": "dungeon-libs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Rules for the Dungeon Libs roleplaying game",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write '**/*.{css,scss,js}'",
-    "build": "node --harmony scripts/createRulebooks",
-    "watch": "node --harmony scripts/createRulebooks",
+    "build": "babel-node scripts/createRulebooks",
+    "watch": "watch 'npm run build' ./src --wait=1",
+    "format": "prettier --write scripts/ src/",
+    "format:staged": "pretty-quick --staged --pattern ./scripts/**",
     "test": "jest",
     "test:watch": "jest --watch --runInBand --bail"
   },
-  "babel": {
-    "presets": [
-      "mcclowes"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "mcclowes"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hammerheim-game/hammerheim-rules.git"
+    "url": "git+https://github.com/metamagic-games/dungeon-libs.git"
   },
   "keywords": [
     "dungeon libs",
@@ -33,22 +26,29 @@
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hammerheim-game/hammerheim-rules/issues"
+    "url": "https://github.com/metamagic-games/dungeon-libs/issues"
   },
-  "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
-  "dependencies": {
-    "handbooker": "^1.6.6",
-    "html-pdf-chrome": "^0.5.0",
-    "jest": "^24.0.0",
-    "marked": "^0.7.0",
-    "merge-md": "^1.0.3",
-    "path": "^0.12.7"
+  "homepage": "https://github.com/metamagic-games/dungeon-libs#readme",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ]
   },
+  "dependencies": {},
   "devDependencies": {
-    "mcclowes-scripts": "^0.3.5",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "eslint": "^4.18.2",
-    "prettier": "^1.19.1"
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "handbooker": "^1.6.6",
+    "husky": "^5.1.3",
+    "jest": "^26.6.3",
+    "lodash": "^4.17.21",
+    "marked": "^2.0.1",
+    "merge-md": "^1.0.3",
+    "path": "^0.12.7",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "watch": "^1.0.2"
   }
 }

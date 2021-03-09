@@ -7,4 +7,4 @@ const options = {
 	},
 };
 
-handbooker("./dungeon-libs.md", "./dungeon-libs-rules.pdf", options);
+handbooker("./src/dungeon-libs.md", "./dungeon-libs-rules.pdf", options);
