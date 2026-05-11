@@ -13,7 +13,7 @@ The actual product is `src/dungeon-libs.md`. Everything else exists to ship that
 - `npm run build` — converts `src/dungeon-libs.md` to `dungeon-libs-rules.pdf` via `scripts/createRulebooks.js` (uses [handbooker](https://github.com/monolith-games/handbooker), runs through `babel-node`).
 - `npm run watch` — re-runs the build whenever `src/` changes.
 - `npm run format` — Prettier across `scripts/` and `src/`.
-- `npm test` — Jest. Currently a single placeholder spec (`__tests__/root.spec.js`); CI (`.circleci/config.yml`) just runs `npm test`.
+- `npm test` — Jest. Currently a single placeholder spec (`__tests__/root.spec.js`); CI (`.github/workflows/ci.yml`) just runs `npm test`.
 - `npm run test:watch` — Jest in watch mode (`--runInBand --bail`).
 - Single test: `npx jest <pattern>` (e.g. `npx jest root`).
 
