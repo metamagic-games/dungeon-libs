@@ -29,11 +29,6 @@
     "url": "https://github.com/metamagic-games/dungeon-libs/issues"
   },
   "homepage": "https://github.com/metamagic-games/dungeon-libs#readme",
-  "jest": {
-    "setupFilesAfterEnv": [
-      "./setupTests.js"
-    ]
-  },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.12.1",
