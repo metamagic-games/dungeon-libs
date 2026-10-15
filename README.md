@@ -10,6 +10,6 @@ The rules live in [`src/dungeon-libs.md`](src/dungeon-libs.md). The PDF rulebook
 npm install
 npm run build      # writes dungeon-libs-rules.pdf
 npm run watch      # rebuilds on changes to src/
-npm test           # runs jest
+npm test           # checks rulebook rendering without launching Chrome
 npm run format     # prettier-format scripts/ and src/
 ```
